@@ -4,6 +4,13 @@ Ways of getting DOS machines on wireless network (hardware &amp; software)
 This repository contains scripts that helped me get a 1991 laptop - Toshiba T3200SXC onto wireless network (details: https://hackaday.io/project/186447-toshiba-t3200sxc-fixupgrade-new-psu-lcd-wifi).
 They may be adapted to be used with different machines.
 
+Steps on OpenWRT router:
+1. Install luci-app-commands package https://openwrt.org/packages/pkgdata/luci-app-commands
+This package will allow executing commands on the router via simply opening URLs on the DOS machine (not the safest thing to do, but it works)
+2. Put the following scripts on the OpenWRT router:
+
+
+
 These scripts should be installed on a OpenWRT router connected with the internet interface of an old machine:
 
 These are MS-DOS batch scripts that can be used to scan and connect to wireless networks directly from MS-DOS:
